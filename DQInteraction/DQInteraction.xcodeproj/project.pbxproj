@@ -1,0 +1,753 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		21ABF3D307CF2BAEA362BF08 /* libPods-DQInteractionUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 60B4395D50657049E611342A /* libPods-DQInteractionUITests.a */; };
+		7677BD7BADF3DC6499CBD02A /* libPods-DQInteraction.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 02636C118DD0000306D6BC35 /* libPods-DQInteraction.a */; };
+		98EE1219282193F5664A48B6 /* libPods-DQInteractionTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CF7F2DA515A7D66373E96CB /* libPods-DQInteractionTests.a */; };
+		B1348D3B2046BEC20006FACC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B1348D3A2046BEC20006FACC /* AppDelegate.m */; };
+		B1348D3E2046BEC20006FACC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B1348D3D2046BEC20006FACC /* ViewController.m */; };
+		B1348D412046BEC20006FACC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1348D3F2046BEC20006FACC /* Main.storyboard */; };
+		B1348D432046BEC20006FACC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B1348D422046BEC20006FACC /* Assets.xcassets */; };
+		B1348D462046BEC20006FACC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1348D442046BEC20006FACC /* LaunchScreen.storyboard */; };
+		B1348D492046BEC20006FACC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B1348D482046BEC20006FACC /* main.m */; };
+		B1348D532046BEC20006FACC /* DQInteractionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B1348D522046BEC20006FACC /* DQInteractionTests.m */; };
+		B1348D5E2046BEC20006FACC /* DQInteractionUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B1348D5D2046BEC20006FACC /* DQInteractionUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B1348D4F2046BEC20006FACC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B1348D2E2046BEC20006FACC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B1348D352046BEC20006FACC;
+			remoteInfo = DQInteraction;
+		};
+		B1348D5A2046BEC20006FACC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B1348D2E2046BEC20006FACC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B1348D352046BEC20006FACC;
+			remoteInfo = DQInteraction;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02636C118DD0000306D6BC35 /* libPods-DQInteraction.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DQInteraction.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		150693B4775E60BF76550647 /* Pods-DQInteraction.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DQInteraction.release.xcconfig"; path = "Pods/Target Support Files/Pods-DQInteraction/Pods-DQInteraction.release.xcconfig"; sourceTree = "<group>"; };
+		60B4395D50657049E611342A /* libPods-DQInteractionUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DQInteractionUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6DCF2804934505A0E9A91293 /* Pods-DQInteractionUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DQInteractionUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DQInteractionUITests/Pods-DQInteractionUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		726C9B9D72CC3039B49C3DB6 /* Pods-DQInteraction.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DQInteraction.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DQInteraction/Pods-DQInteraction.debug.xcconfig"; sourceTree = "<group>"; };
+		8CF7F2DA515A7D66373E96CB /* libPods-DQInteractionTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DQInteractionTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1348D362046BEC20006FACC /* DQInteraction.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DQInteraction.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1348D392046BEC20006FACC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B1348D3A2046BEC20006FACC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B1348D3C2046BEC20006FACC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B1348D3D2046BEC20006FACC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B1348D402046BEC20006FACC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B1348D422046BEC20006FACC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B1348D452046BEC20006FACC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B1348D472046BEC20006FACC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B1348D482046BEC20006FACC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B1348D4E2046BEC20006FACC /* DQInteractionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DQInteractionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1348D522046BEC20006FACC /* DQInteractionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DQInteractionTests.m; sourceTree = "<group>"; };
+		B1348D542046BEC20006FACC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B1348D592046BEC20006FACC /* DQInteractionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DQInteractionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1348D5D2046BEC20006FACC /* DQInteractionUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DQInteractionUITests.m; sourceTree = "<group>"; };
+		B1348D5F2046BEC20006FACC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CAF054DC598FD15F42D7515B /* Pods-DQInteractionUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DQInteractionUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DQInteractionUITests/Pods-DQInteractionUITests.release.xcconfig"; sourceTree = "<group>"; };
+		CC66CFB23122E78DDF443A8D /* Pods-DQInteractionTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DQInteractionTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DQInteractionTests/Pods-DQInteractionTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E7C00E72AB227FC9194CFF3D /* Pods-DQInteractionTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DQInteractionTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DQInteractionTests/Pods-DQInteractionTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B1348D332046BEC20006FACC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7677BD7BADF3DC6499CBD02A /* libPods-DQInteraction.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1348D4B2046BEC20006FACC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98EE1219282193F5664A48B6 /* libPods-DQInteractionTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1348D562046BEC20006FACC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21ABF3D307CF2BAEA362BF08 /* libPods-DQInteractionUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A9CB9212C5BF16F48762E1D5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				726C9B9D72CC3039B49C3DB6 /* Pods-DQInteraction.debug.xcconfig */,
+				150693B4775E60BF76550647 /* Pods-DQInteraction.release.xcconfig */,
+				CC66CFB23122E78DDF443A8D /* Pods-DQInteractionTests.debug.xcconfig */,
+				E7C00E72AB227FC9194CFF3D /* Pods-DQInteractionTests.release.xcconfig */,
+				6DCF2804934505A0E9A91293 /* Pods-DQInteractionUITests.debug.xcconfig */,
+				CAF054DC598FD15F42D7515B /* Pods-DQInteractionUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B1348D2D2046BEC20006FACC = {
+			isa = PBXGroup;
+			children = (
+				B1348D382046BEC20006FACC /* DQInteraction */,
+				B1348D512046BEC20006FACC /* DQInteractionTests */,
+				B1348D5C2046BEC20006FACC /* DQInteractionUITests */,
+				B1348D372046BEC20006FACC /* Products */,
+				A9CB9212C5BF16F48762E1D5 /* Pods */,
+				FD94F6155473352BBE40C509 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B1348D372046BEC20006FACC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B1348D362046BEC20006FACC /* DQInteraction.app */,
+				B1348D4E2046BEC20006FACC /* DQInteractionTests.xctest */,
+				B1348D592046BEC20006FACC /* DQInteractionUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B1348D382046BEC20006FACC /* DQInteraction */ = {
+			isa = PBXGroup;
+			children = (
+				B1348D392046BEC20006FACC /* AppDelegate.h */,
+				B1348D3A2046BEC20006FACC /* AppDelegate.m */,
+				B1348D3C2046BEC20006FACC /* ViewController.h */,
+				B1348D3D2046BEC20006FACC /* ViewController.m */,
+				B1348D3F2046BEC20006FACC /* Main.storyboard */,
+				B1348D422046BEC20006FACC /* Assets.xcassets */,
+				B1348D442046BEC20006FACC /* LaunchScreen.storyboard */,
+				B1348D472046BEC20006FACC /* Info.plist */,
+				B1348D482046BEC20006FACC /* main.m */,
+			);
+			path = DQInteraction;
+			sourceTree = "<group>";
+		};
+		B1348D512046BEC20006FACC /* DQInteractionTests */ = {
+			isa = PBXGroup;
+			children = (
+				B1348D522046BEC20006FACC /* DQInteractionTests.m */,
+				B1348D542046BEC20006FACC /* Info.plist */,
+			);
+			path = DQInteractionTests;
+			sourceTree = "<group>";
+		};
+		B1348D5C2046BEC20006FACC /* DQInteractionUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B1348D5D2046BEC20006FACC /* DQInteractionUITests.m */,
+				B1348D5F2046BEC20006FACC /* Info.plist */,
+			);
+			path = DQInteractionUITests;
+			sourceTree = "<group>";
+		};
+		FD94F6155473352BBE40C509 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				02636C118DD0000306D6BC35 /* libPods-DQInteraction.a */,
+				8CF7F2DA515A7D66373E96CB /* libPods-DQInteractionTests.a */,
+				60B4395D50657049E611342A /* libPods-DQInteractionUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B1348D352046BEC20006FACC /* DQInteraction */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B1348D622046BEC20006FACC /* Build configuration list for PBXNativeTarget "DQInteraction" */;
+			buildPhases = (
+				5B33BF133DF6263FE0EAA492 /* [CP] Check Pods Manifest.lock */,
+				B1348D322046BEC20006FACC /* Sources */,
+				B1348D332046BEC20006FACC /* Frameworks */,
+				B1348D342046BEC20006FACC /* Resources */,
+				EF550FEA5DFF1D68D24063D7 /* [CP] Embed Pods Frameworks */,
+				6281A4EA51488B2F53105566 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DQInteraction;
+			productName = DQInteraction;
+			productReference = B1348D362046BEC20006FACC /* DQInteraction.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B1348D4D2046BEC20006FACC /* DQInteractionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B1348D652046BEC20006FACC /* Build configuration list for PBXNativeTarget "DQInteractionTests" */;
+			buildPhases = (
+				3726D603460DE6CE466124F2 /* [CP] Check Pods Manifest.lock */,
+				B1348D4A2046BEC20006FACC /* Sources */,
+				B1348D4B2046BEC20006FACC /* Frameworks */,
+				B1348D4C2046BEC20006FACC /* Resources */,
+				C6CAE3B21718DD674157223F /* [CP] Embed Pods Frameworks */,
+				51309F4E3AF63FF9B02A3531 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B1348D502046BEC20006FACC /* PBXTargetDependency */,
+			);
+			name = DQInteractionTests;
+			productName = DQInteractionTests;
+			productReference = B1348D4E2046BEC20006FACC /* DQInteractionTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B1348D582046BEC20006FACC /* DQInteractionUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B1348D682046BEC20006FACC /* Build configuration list for PBXNativeTarget "DQInteractionUITests" */;
+			buildPhases = (
+				A82F1F124275BA30CBC8DF07 /* [CP] Check Pods Manifest.lock */,
+				B1348D552046BEC20006FACC /* Sources */,
+				B1348D562046BEC20006FACC /* Frameworks */,
+				B1348D572046BEC20006FACC /* Resources */,
+				F879BEC1182774FE8F8B6058 /* [CP] Embed Pods Frameworks */,
+				E81E831B38D286962A1D068D /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B1348D5B2046BEC20006FACC /* PBXTargetDependency */,
+			);
+			name = DQInteractionUITests;
+			productName = DQInteractionUITests;
+			productReference = B1348D592046BEC20006FACC /* DQInteractionUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B1348D2E2046BEC20006FACC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = lxw;
+				TargetAttributes = {
+					B1348D352046BEC20006FACC = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					B1348D4D2046BEC20006FACC = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B1348D352046BEC20006FACC;
+					};
+					B1348D582046BEC20006FACC = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B1348D352046BEC20006FACC;
+					};
+				};
+			};
+			buildConfigurationList = B1348D312046BEC20006FACC /* Build configuration list for PBXProject "DQInteraction" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B1348D2D2046BEC20006FACC;
+			productRefGroup = B1348D372046BEC20006FACC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B1348D352046BEC20006FACC /* DQInteraction */,
+				B1348D4D2046BEC20006FACC /* DQInteractionTests */,
+				B1348D582046BEC20006FACC /* DQInteractionUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B1348D342046BEC20006FACC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1348D462046BEC20006FACC /* LaunchScreen.storyboard in Resources */,
+				B1348D432046BEC20006FACC /* Assets.xcassets in Resources */,
+				B1348D412046BEC20006FACC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1348D4C2046BEC20006FACC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1348D572046BEC20006FACC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3726D603460DE6CE466124F2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DQInteractionTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		51309F4E3AF63FF9B02A3531 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DQInteractionTests/Pods-DQInteractionTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5B33BF133DF6263FE0EAA492 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DQInteraction-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6281A4EA51488B2F53105566 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DQInteraction/Pods-DQInteraction-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A82F1F124275BA30CBC8DF07 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DQInteractionUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C6CAE3B21718DD674157223F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DQInteractionTests/Pods-DQInteractionTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E81E831B38D286962A1D068D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DQInteractionUITests/Pods-DQInteractionUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EF550FEA5DFF1D68D24063D7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DQInteraction/Pods-DQInteraction-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F879BEC1182774FE8F8B6058 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DQInteractionUITests/Pods-DQInteractionUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B1348D322046BEC20006FACC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1348D3E2046BEC20006FACC /* ViewController.m in Sources */,
+				B1348D492046BEC20006FACC /* main.m in Sources */,
+				B1348D3B2046BEC20006FACC /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1348D4A2046BEC20006FACC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1348D532046BEC20006FACC /* DQInteractionTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1348D552046BEC20006FACC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1348D5E2046BEC20006FACC /* DQInteractionUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B1348D502046BEC20006FACC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B1348D352046BEC20006FACC /* DQInteraction */;
+			targetProxy = B1348D4F2046BEC20006FACC /* PBXContainerItemProxy */;
+		};
+		B1348D5B2046BEC20006FACC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B1348D352046BEC20006FACC /* DQInteraction */;
+			targetProxy = B1348D5A2046BEC20006FACC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B1348D3F2046BEC20006FACC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B1348D402046BEC20006FACC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B1348D442046BEC20006FACC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B1348D452046BEC20006FACC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B1348D602046BEC20006FACC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B1348D612046BEC20006FACC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B1348D632046BEC20006FACC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 726C9B9D72CC3039B49C3DB6 /* Pods-DQInteraction.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DQInteraction/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = fmy.DQInteraction;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B1348D642046BEC20006FACC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 150693B4775E60BF76550647 /* Pods-DQInteraction.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DQInteraction/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = fmy.DQInteraction;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B1348D662046BEC20006FACC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC66CFB23122E78DDF443A8D /* Pods-DQInteractionTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DQInteractionTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = fmy.DQInteractionTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DQInteraction.app/DQInteraction";
+			};
+			name = Debug;
+		};
+		B1348D672046BEC20006FACC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E7C00E72AB227FC9194CFF3D /* Pods-DQInteractionTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DQInteractionTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = fmy.DQInteractionTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DQInteraction.app/DQInteraction";
+			};
+			name = Release;
+		};
+		B1348D692046BEC20006FACC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6DCF2804934505A0E9A91293 /* Pods-DQInteractionUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DQInteractionUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = fmy.DQInteractionUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DQInteraction;
+			};
+			name = Debug;
+		};
+		B1348D6A2046BEC20006FACC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CAF054DC598FD15F42D7515B /* Pods-DQInteractionUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DQInteractionUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = fmy.DQInteractionUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DQInteraction;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B1348D312046BEC20006FACC /* Build configuration list for PBXProject "DQInteraction" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1348D602046BEC20006FACC /* Debug */,
+				B1348D612046BEC20006FACC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B1348D622046BEC20006FACC /* Build configuration list for PBXNativeTarget "DQInteraction" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1348D632046BEC20006FACC /* Debug */,
+				B1348D642046BEC20006FACC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B1348D652046BEC20006FACC /* Build configuration list for PBXNativeTarget "DQInteractionTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1348D662046BEC20006FACC /* Debug */,
+				B1348D672046BEC20006FACC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B1348D682046BEC20006FACC /* Build configuration list for PBXNativeTarget "DQInteractionUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1348D692046BEC20006FACC /* Debug */,
+				B1348D6A2046BEC20006FACC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B1348D2E2046BEC20006FACC /* Project object */;
+}
