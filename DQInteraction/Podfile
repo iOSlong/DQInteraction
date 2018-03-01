@@ -1,21 +1,43 @@
 # Uncomment the next line to define a global platform for your project
 # platform :ios, '9.0'
 
-target 'DQInteraction' do
+
   # Uncomment the next line if you're using Swift or would like to use dynamic frameworks
   # use_frameworks!
 
   # Pods for DQInteraction
 
-  target 'DQInteractionTests' do
-    inherit! :search_paths
-pod 'Masonry'
-    # Pods for testing
-  end
-
-  target 'DQInteractionUITests' do
-    inherit! :search_paths
-    # Pods for testing
-  end
+def pods
+   pod 'AFNetwork', '~> 0.1.0'
+   pod 'SDWebImage', '~> 4.2.2'
+   pod 'Masonry'
+#   pod 'UITableView+FDTemplateLayoutCell', '~> 1.6'
+   pod 'JSONModel'
+   pod 'MJRefresh'
+   pod 'MBProgressHUD'
+   pod 'Reachability'
+   pod 'FMDB'
+   pod 'LKDBHelper'
+   pod 'JRSwizzle'
+   pod 'YYDispatchQueuePool'
+#   pod 'OpenUDID'
+#   pod 'NSString-Hashes'
+   #pod 'KeychainItemWrapper-Copy'
+   #pod 'CocoaLumberjack', '~> 3.3.0'
+   #pod 'UIColor-Utilities', '~> 1.0.1'
+   #pod 'libextobjc/EXTScope'
+   #pod 'libextobjc/EXTKeyPathCoding'
 
 end
+
+target 'DQInteraction' do
+    pods
+end
+
+target 'DQInteractionPad' do
+    pods
+end
+
+#end
+#end
+

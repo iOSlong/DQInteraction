@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '235528E6FD7AC1BC472827AC311AE308'
+               BlueprintIdentifier = 'CAE4DC62B70A4AD5BA7040F3E9FBFC60'
                BlueprintName = 'Pods-DQInteraction'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'libPods-DQInteraction.a'>

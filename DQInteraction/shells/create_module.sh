@@ -195,7 +195,7 @@ dump_to_file "$FILE" "$(cat <<-EOF
 }
 
 ///  添加要追踪的属性
-DQMEMD_TRACE_CHILDREN(self.business);
+//// DQMEMD_TRACE_CHILDREN(self.business);
 
 - (void)dealloc {
 }
@@ -278,7 +278,7 @@ dump_to_file "$FILE" "$(cat <<-EOF
 /// DQMEMD_TRACE_CHILDREN();
 
 - (void)dealloc {
-    NSLogInfo(@"");
+    NSLog(@"");
 }
 @end
 EOF)"

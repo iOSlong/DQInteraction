@@ -7,6 +7,13 @@
 //
 
 #import "AppDelegate.h"
+#import "RecommendViewController.h"
+#import "ChannelViewController.h"
+#import "RankViewController.h"
+#import "TopicViewController.h"
+#import "UserCenterViewController.h"
+#import "DQNavigationController.h"
+#import "DQTabBarController.h"
 
 @interface AppDelegate ()
 
@@ -17,7 +24,49 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    [self setViewControllers];
+    
     return YES;
+}
+- (void)setViewControllers {
+    
+    
+    RecommendViewController *recommendVC = [[RecommendViewController alloc] init];
+    recommendVC.title = @"首页";
+    
+    ChannelViewController *channelVC = [[ChannelViewController alloc] init];
+    channelVC.title = @"频道";
+
+    TopicViewController *topicVC = [[TopicViewController alloc] init];
+    topicVC.title = @"专题";
+
+    RankViewController *rankVC = [[RankViewController alloc] init];
+    rankVC.title = @"排行榜";
+
+    UserCenterViewController *userCenterVC = [[UserCenterViewController alloc] init];
+    userCenterVC.title = @"个人中心";
+    
+    DQNavigationController *recommendNav = [[DQNavigationController alloc] initWithRootViewController:recommendVC];
+    recommendNav.title = @"首页";
+
+    DQNavigationController *channelNav = [[DQNavigationController alloc] initWithRootViewController:channelVC];
+    channelNav.title = @"频道";
+    
+    DQNavigationController *topicNav = [[DQNavigationController alloc] initWithRootViewController:topicVC];
+    topicNav.title = @"专题";
+
+    DQNavigationController *rankNav = [[DQNavigationController alloc] initWithRootViewController:rankVC];
+    rankNav.title = @"排行榜";
+
+    DQNavigationController *userCenterNav = [[DQNavigationController alloc] initWithRootViewController:userCenterVC];
+    userCenterNav.title = @"排行榜";
+
+    DQTabBarController *tabBarController = [[DQTabBarController alloc] init];
+    tabBarController.viewControllers = @[recommendNav,channelNav,topicNav,rankNav,userCenterNav];
+    
+    self.window.rootViewController = tabBarController;
+    [self.window makeKeyAndVisible];
 }
 
 
