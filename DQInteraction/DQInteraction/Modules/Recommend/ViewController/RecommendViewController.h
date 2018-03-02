@@ -12,4 +12,10 @@
 
 @interface RecommendViewController : DQViewController
 @property (nonatomic,strong) RecommendBusiness*business;
+
+@property (nonatomic, strong) UIView     *toolView;
+@property (nonatomic, strong) UIButton   *searchButton;
+@property (nonatomic, strong) UIButton   *moreButton;
+
+
 @end

@@ -13,6 +13,10 @@
 ///  添加要追踪的属性
 /// DQMEMD_TRACE_CHILDREN();
 
+- (void)loadResultViewControllerWithKeyword:(NSString *)keyword {
+    
+}
+
 - (void)dealloc {
     NSLog(@"");
 }

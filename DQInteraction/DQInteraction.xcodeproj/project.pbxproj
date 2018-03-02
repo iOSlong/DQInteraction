@@ -137,6 +137,36 @@
 		B13493C22047F79A0006FACC /* DQNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = B13493C02047F79A0006FACC /* DQNavigationController.m */; };
 		B13493C62047FA3B0006FACC /* DQViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B13493C52047FA3B0006FACC /* DQViewController.m */; };
 		B13493C72047FA3B0006FACC /* DQViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B13493C52047FA3B0006FACC /* DQViewController.m */; };
+		B13493CA2048EC8F0006FACC /* RecommendPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B13493C92048EC8F0006FACC /* RecommendPageViewController.m */; };
+		B13493CB2048EC8F0006FACC /* RecommendPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B13493C92048EC8F0006FACC /* RecommendPageViewController.m */; };
+		B13493CF2048ED100006FACC /* DQHorizontalSelectionListView.m in Sources */ = {isa = PBXBuildFile; fileRef = B13493CD2048ED100006FACC /* DQHorizontalSelectionListView.m */; };
+		B13493D02048ED100006FACC /* DQHorizontalSelectionListView.m in Sources */ = {isa = PBXBuildFile; fileRef = B13493CD2048ED100006FACC /* DQHorizontalSelectionListView.m */; };
+		B13493D62048F0770006FACC /* SASView.m in Sources */ = {isa = PBXBuildFile; fileRef = B13493D42048F0770006FACC /* SASView.m */; };
+		B13493D72048F0770006FACC /* SASView.m in Sources */ = {isa = PBXBuildFile; fileRef = B13493D42048F0770006FACC /* SASView.m */; };
+		B13493DD2048F6190006FACC /* UIDevice+NTYExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = B13493DB2048F6190006FACC /* UIDevice+NTYExtension.m */; };
+		B13493DE2048F6190006FACC /* UIDevice+NTYExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = B13493DB2048F6190006FACC /* UIDevice+NTYExtension.m */; };
+		B13493DF2048F6190006FACC /* UIButton+NTYExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = B13493DC2048F6190006FACC /* UIButton+NTYExtension.m */; };
+		B13493E02048F6190006FACC /* UIButton+NTYExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = B13493DC2048F6190006FACC /* UIButton+NTYExtension.m */; };
+		B13493E32048F6760006FACC /* NSObject+Cast.m in Sources */ = {isa = PBXBuildFile; fileRef = B13493E22048F6760006FACC /* NSObject+Cast.m */; };
+		B13493E42048F6760006FACC /* NSObject+Cast.m in Sources */ = {isa = PBXBuildFile; fileRef = B13493E22048F6760006FACC /* NSObject+Cast.m */; };
+		B13493E82048F75D0006FACC /* Path.m in Sources */ = {isa = PBXBuildFile; fileRef = B13493E72048F75D0006FACC /* Path.m */; };
+		B13493E92048F75D0006FACC /* Path.m in Sources */ = {isa = PBXBuildFile; fileRef = B13493E72048F75D0006FACC /* Path.m */; };
+		B13493ED2048F81D0006FACC /* Dispatch.m in Sources */ = {isa = PBXBuildFile; fileRef = B13493EB2048F81D0006FACC /* Dispatch.m */; };
+		B13493EE2048F81D0006FACC /* Dispatch.m in Sources */ = {isa = PBXBuildFile; fileRef = B13493EB2048F81D0006FACC /* Dispatch.m */; };
+		B13493F1204901510006FACC /* SectionTitlePageCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = B13493F0204901510006FACC /* SectionTitlePageCollectionView.m */; };
+		B13493F2204901510006FACC /* SectionTitlePageCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = B13493F0204901510006FACC /* SectionTitlePageCollectionView.m */; };
+		B13493F5204929C00006FACC /* SearchSuggestAlbumPageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B13493F4204929C00006FACC /* SearchSuggestAlbumPageCell.m */; };
+		B13493F6204929C00006FACC /* SearchSuggestAlbumPageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B13493F4204929C00006FACC /* SearchSuggestAlbumPageCell.m */; };
+		B13493FC2049333B0006FACC /* SearchBarView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B13493F72049333A0006FACC /* SearchBarView.xib */; };
+		B13493FD2049333B0006FACC /* SearchBarView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B13493F72049333A0006FACC /* SearchBarView.xib */; };
+		B13493FE2049333B0006FACC /* SearchBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = B13493F82049333B0006FACC /* SearchBarView.m */; };
+		B13493FF2049333B0006FACC /* SearchBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = B13493F82049333B0006FACC /* SearchBarView.m */; };
+		B13494052049339B0006FACC /* NTYKeyValueObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = B13494032049339B0006FACC /* NTYKeyValueObserver.m */; };
+		B13494062049339B0006FACC /* NTYKeyValueObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = B13494032049339B0006FACC /* NTYKeyValueObserver.m */; };
+		B1349409204935DE0006FACC /* NSObject+Decroate.m in Sources */ = {isa = PBXBuildFile; fileRef = B1349408204935DE0006FACC /* NSObject+Decroate.m */; };
+		B134940A204935DE0006FACC /* NSObject+Decroate.m in Sources */ = {isa = PBXBuildFile; fileRef = B1349408204935DE0006FACC /* NSObject+Decroate.m */; };
+		B1349411204956340006FACC /* SearchSuggestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B1349410204956340006FACC /* SearchSuggestViewController.m */; };
+		B1349412204956340006FACC /* SearchSuggestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B1349410204956340006FACC /* SearchSuggestViewController.m */; };
 		B9133F9040898B7CCFA13C04 /* libPods-DQInteractionPad.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A17B9922EDE338464AF584B1 /* libPods-DQInteractionPad.a */; };
 /* End PBXBuildFile section */
 
@@ -253,6 +283,36 @@
 		B13493C02047F79A0006FACC /* DQNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DQNavigationController.m; sourceTree = "<group>"; };
 		B13493C42047FA3B0006FACC /* DQViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DQViewController.h; sourceTree = "<group>"; };
 		B13493C52047FA3B0006FACC /* DQViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DQViewController.m; sourceTree = "<group>"; };
+		B13493C82048EC8F0006FACC /* RecommendPageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RecommendPageViewController.h; sourceTree = "<group>"; };
+		B13493C92048EC8F0006FACC /* RecommendPageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RecommendPageViewController.m; sourceTree = "<group>"; };
+		B13493CD2048ED100006FACC /* DQHorizontalSelectionListView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DQHorizontalSelectionListView.m; sourceTree = "<group>"; };
+		B13493CE2048ED100006FACC /* DQHorizontalSelectionListView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DQHorizontalSelectionListView.h; sourceTree = "<group>"; };
+		B13493D22048EDBA0006FACC /* NTY_Macros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NTY_Macros.h; sourceTree = "<group>"; };
+		B13493D42048F0770006FACC /* SASView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SASView.m; sourceTree = "<group>"; };
+		B13493D52048F0770006FACC /* SASView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SASView.h; sourceTree = "<group>"; };
+		B13493D92048F6190006FACC /* UIDevice+NTYExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIDevice+NTYExtension.h"; sourceTree = "<group>"; };
+		B13493DA2048F6190006FACC /* UIButton+NTYExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+NTYExtension.h"; sourceTree = "<group>"; };
+		B13493DB2048F6190006FACC /* UIDevice+NTYExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+NTYExtension.m"; sourceTree = "<group>"; };
+		B13493DC2048F6190006FACC /* UIButton+NTYExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+NTYExtension.m"; sourceTree = "<group>"; };
+		B13493E12048F6760006FACC /* NSObject+Cast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Cast.h"; sourceTree = "<group>"; };
+		B13493E22048F6760006FACC /* NSObject+Cast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Cast.m"; sourceTree = "<group>"; };
+		B13493E62048F75D0006FACC /* Path.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Path.h; sourceTree = "<group>"; };
+		B13493E72048F75D0006FACC /* Path.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Path.m; sourceTree = "<group>"; };
+		B13493EB2048F81D0006FACC /* Dispatch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Dispatch.m; sourceTree = "<group>"; };
+		B13493EC2048F81D0006FACC /* Dispatch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Dispatch.h; sourceTree = "<group>"; };
+		B13493EF204901510006FACC /* SectionTitlePageCollectionView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SectionTitlePageCollectionView.h; sourceTree = "<group>"; };
+		B13493F0204901510006FACC /* SectionTitlePageCollectionView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SectionTitlePageCollectionView.m; sourceTree = "<group>"; };
+		B13493F3204929C00006FACC /* SearchSuggestAlbumPageCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SearchSuggestAlbumPageCell.h; sourceTree = "<group>"; };
+		B13493F4204929C00006FACC /* SearchSuggestAlbumPageCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SearchSuggestAlbumPageCell.m; sourceTree = "<group>"; };
+		B13493F72049333A0006FACC /* SearchBarView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SearchBarView.xib; sourceTree = "<group>"; };
+		B13493F82049333B0006FACC /* SearchBarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchBarView.m; sourceTree = "<group>"; };
+		B13493FB2049333B0006FACC /* SearchBarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchBarView.h; sourceTree = "<group>"; };
+		B13494032049339B0006FACC /* NTYKeyValueObserver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NTYKeyValueObserver.m; sourceTree = "<group>"; };
+		B13494042049339B0006FACC /* NTYKeyValueObserver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NTYKeyValueObserver.h; sourceTree = "<group>"; };
+		B1349407204935DE0006FACC /* NSObject+Decorate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Decorate.h"; sourceTree = "<group>"; };
+		B1349408204935DE0006FACC /* NSObject+Decroate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Decroate.m"; sourceTree = "<group>"; };
+		B134940F204956340006FACC /* SearchSuggestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SearchSuggestViewController.h; sourceTree = "<group>"; };
+		B1349410204956340006FACC /* SearchSuggestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SearchSuggestViewController.m; sourceTree = "<group>"; };
 		CAF054DC598FD15F42D7515B /* Pods-DQInteractionUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DQInteractionUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DQInteractionUITests/Pods-DQInteractionUITests.release.xcconfig"; sourceTree = "<group>"; };
 		CC66CFB23122E78DDF443A8D /* Pods-DQInteractionTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DQInteractionTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DQInteractionTests/Pods-DQInteractionTests.debug.xcconfig"; sourceTree = "<group>"; };
 		D898F1485CE1ABB5ABC2543D /* Pods-DQInteraction.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DQInteraction.release.xcconfig"; path = "Pods/Target Support Files/Pods-DQInteraction/Pods-DQInteraction.release.xcconfig"; sourceTree = "<group>"; };
@@ -335,7 +395,6 @@
 		B1348D382046BEC20006FACC /* DQInteraction */ = {
 			isa = PBXGroup;
 			children = (
-				B13492192047B0520006FACC /* SARRS */,
 				B1348F872047AD4E0006FACC /* App */,
 				B1348F962047AD4E0006FACC /* Component */,
 				B1348F7E2047AD4E0006FACC /* Extension */,
@@ -445,8 +504,10 @@
 		B1348DEC2047A46B0006FACC /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
-				B1348DED2047A46B0006FACC /* RecommendViewController.m */,
 				B1348DEE2047A46B0006FACC /* RecommendViewController.h */,
+				B1348DED2047A46B0006FACC /* RecommendViewController.m */,
+				B13493C82048EC8F0006FACC /* RecommendPageViewController.h */,
+				B13493C92048EC8F0006FACC /* RecommendPageViewController.m */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -521,6 +582,13 @@
 			isa = PBXGroup;
 			children = (
 				B1348E102047A4D10006FACC /* README.md */,
+				B13493EF204901510006FACC /* SectionTitlePageCollectionView.h */,
+				B13493F0204901510006FACC /* SectionTitlePageCollectionView.m */,
+				B13493F3204929C00006FACC /* SearchSuggestAlbumPageCell.h */,
+				B13493F4204929C00006FACC /* SearchSuggestAlbumPageCell.m */,
+				B13493FB2049333B0006FACC /* SearchBarView.h */,
+				B13493F82049333B0006FACC /* SearchBarView.m */,
+				B13493F72049333A0006FACC /* SearchBarView.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -528,8 +596,10 @@
 		B1348E112047A4D10006FACC /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
-				B1348E122047A4D10006FACC /* SearchViewController.m */,
 				B1348E132047A4D10006FACC /* SearchViewController.h */,
+				B1348E122047A4D10006FACC /* SearchViewController.m */,
+				B134940F204956340006FACC /* SearchSuggestViewController.h */,
+				B1349410204956340006FACC /* SearchSuggestViewController.m */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -537,6 +607,11 @@
 		B1348E242047A5C20006FACC /* Ninty */ = {
 			isa = PBXGroup;
 			children = (
+				B13494022049339B0006FACC /* NTYKeyValueObserver */,
+				B13493EA2048F81D0006FACC /* Dispatch */,
+				B13493E52048F75D0006FACC /* Path */,
+				B13493D82048F5E10006FACC /* Extension */,
+				B13493D12048EDBA0006FACC /* Macros */,
 			);
 			path = Ninty;
 			sourceTree = "<group>";
@@ -565,18 +640,13 @@
 		B1348F962047AD4E0006FACC /* Component */ = {
 			isa = PBXGroup;
 			children = (
+				B13493D32048F0540006FACC /* DQBase */,
+				B13493CC2048ECC10006FACC /* DQHorizontalSelectionListView */,
 				B13493C32047FA0A0006FACC /* DQViewController */,
 				B13493BE2047F7590006FACC /* DQNavigationController */,
 				B13493B92047F6480006FACC /* DQTabBarController */,
 			);
 			path = Component;
-			sourceTree = "<group>";
-		};
-		B13492192047B0520006FACC /* SARRS */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = SARRS;
 			sourceTree = "<group>";
 		};
 		B134926A2047DD190006FACC /* Vendor */ = {
@@ -945,6 +1015,74 @@
 			path = DQViewController;
 			sourceTree = "<group>";
 		};
+		B13493CC2048ECC10006FACC /* DQHorizontalSelectionListView */ = {
+			isa = PBXGroup;
+			children = (
+				B13493CE2048ED100006FACC /* DQHorizontalSelectionListView.h */,
+				B13493CD2048ED100006FACC /* DQHorizontalSelectionListView.m */,
+			);
+			path = DQHorizontalSelectionListView;
+			sourceTree = "<group>";
+		};
+		B13493D12048EDBA0006FACC /* Macros */ = {
+			isa = PBXGroup;
+			children = (
+				B13493D22048EDBA0006FACC /* NTY_Macros.h */,
+			);
+			path = Macros;
+			sourceTree = "<group>";
+		};
+		B13493D32048F0540006FACC /* DQBase */ = {
+			isa = PBXGroup;
+			children = (
+				B13493D52048F0770006FACC /* SASView.h */,
+				B13493D42048F0770006FACC /* SASView.m */,
+			);
+			path = DQBase;
+			sourceTree = "<group>";
+		};
+		B13493D82048F5E10006FACC /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				B13493E12048F6760006FACC /* NSObject+Cast.h */,
+				B13493E22048F6760006FACC /* NSObject+Cast.m */,
+				B1349407204935DE0006FACC /* NSObject+Decorate.h */,
+				B1349408204935DE0006FACC /* NSObject+Decroate.m */,
+				B13493DA2048F6190006FACC /* UIButton+NTYExtension.h */,
+				B13493DC2048F6190006FACC /* UIButton+NTYExtension.m */,
+				B13493D92048F6190006FACC /* UIDevice+NTYExtension.h */,
+				B13493DB2048F6190006FACC /* UIDevice+NTYExtension.m */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		B13493E52048F75D0006FACC /* Path */ = {
+			isa = PBXGroup;
+			children = (
+				B13493E62048F75D0006FACC /* Path.h */,
+				B13493E72048F75D0006FACC /* Path.m */,
+			);
+			path = Path;
+			sourceTree = "<group>";
+		};
+		B13493EA2048F81D0006FACC /* Dispatch */ = {
+			isa = PBXGroup;
+			children = (
+				B13493EB2048F81D0006FACC /* Dispatch.m */,
+				B13493EC2048F81D0006FACC /* Dispatch.h */,
+			);
+			path = Dispatch;
+			sourceTree = "<group>";
+		};
+		B13494022049339B0006FACC /* NTYKeyValueObserver */ = {
+			isa = PBXGroup;
+			children = (
+				B13494032049339B0006FACC /* NTYKeyValueObserver.m */,
+				B13494042049339B0006FACC /* NTYKeyValueObserver.h */,
+			);
+			path = NTYKeyValueObserver;
+			sourceTree = "<group>";
+		};
 		FD94F6155473352BBE40C509 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -1059,6 +1197,7 @@
 				B1348D462046BEC20006FACC /* LaunchScreen.storyboard in Resources */,
 				B134939B2047F3860006FACC /* README.md in Resources */,
 				B134939F2047F3860006FACC /* README.md in Resources */,
+				B13493FC2049333B0006FACC /* SearchBarView.xib in Resources */,
 				B13493B32047F3860006FACC /* README.md in Resources */,
 				B1348E1E2047A4D10006FACC /* README.md in Resources */,
 				B1348D432046BEC20006FACC /* Assets.xcassets in Resources */,
@@ -1093,6 +1232,7 @@
 				B1348DAA20479BA90006FACC /* LaunchScreen.storyboard in Resources */,
 				B134939C2047F3860006FACC /* README.md in Resources */,
 				B13493A02047F3860006FACC /* README.md in Resources */,
+				B13493FD2049333B0006FACC /* SearchBarView.xib in Resources */,
 				B13493B42047F3860006FACC /* README.md in Resources */,
 				B1348E1F2047A4D10006FACC /* README.md in Resources */,
 				B1348DAB20479BA90006FACC /* Assets.xcassets in Resources */,
@@ -1231,11 +1371,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B1349409204935DE0006FACC /* NSObject+Decroate.m in Sources */,
 				B134937D2047F3860006FACC /* RankModule.m in Sources */,
 				B13493A12047F3860006FACC /* ChannelBusiness.m in Sources */,
+				B13493E82048F75D0006FACC /* Path.m in Sources */,
 				B1348DF32047A46B0006FACC /* RecommendModule.m in Sources */,
 				B1348E142047A4D10006FACC /* SearchPresent.m in Sources */,
 				B13493A72047F3860006FACC /* ChannelViewController.m in Sources */,
+				B13493FE2049333B0006FACC /* SearchBarView.m in Sources */,
 				B13493B72047F3860006FACC /* TopicViewController.m in Sources */,
 				B13493912047F3860006FACC /* UserCenterBusiness.m in Sources */,
 				B1348DEF2047A46B0006FACC /* RecommendPresent.m in Sources */,
@@ -1243,24 +1386,35 @@
 				B13493AD2047F3860006FACC /* TopicModule.m in Sources */,
 				B134938D2047F3860006FACC /* UserCenterModule.m in Sources */,
 				B1348DFD2047A46B0006FACC /* RecommendViewController.m in Sources */,
+				B1349411204956340006FACC /* SearchSuggestViewController.m in Sources */,
 				B13493BC2047F6AA0006FACC /* DQTabBarController.m in Sources */,
 				B13493C62047FA3B0006FACC /* DQViewController.m in Sources */,
 				B1348DF72047A46B0006FACC /* RecommendBusiness.m in Sources */,
 				B13493792047F3860006FACC /* RankPresent.m in Sources */,
+				B13493ED2048F81D0006FACC /* Dispatch.m in Sources */,
+				B13493E32048F6760006FACC /* NSObject+Cast.m in Sources */,
+				B13493D62048F0770006FACC /* SASView.m in Sources */,
 				B13493992047F3860006FACC /* ChannelPresent.m in Sources */,
 				B1348D3E2046BEC20006FACC /* ViewController.m in Sources */,
 				B13493972047F3860006FACC /* UserCenterViewController.m in Sources */,
 				B1348D492046BEC20006FACC /* main.m in Sources */,
 				B1348E1C2047A4D10006FACC /* SearchBusiness.m in Sources */,
+				B13493DF2048F6190006FACC /* UIButton+NTYExtension.m in Sources */,
 				B1348E222047A4D10006FACC /* SearchViewController.m in Sources */,
+				B13493CF2048ED100006FACC /* DQHorizontalSelectionListView.m in Sources */,
+				B13494052049339B0006FACC /* NTYKeyValueObserver.m in Sources */,
+				B13493F5204929C00006FACC /* SearchSuggestAlbumPageCell.m in Sources */,
+				B13493CA2048EC8F0006FACC /* RecommendPageViewController.m in Sources */,
 				B13493A92047F3860006FACC /* TopicPresent.m in Sources */,
 				B134939D2047F3860006FACC /* ChannelModule.m in Sources */,
+				B13493F1204901510006FACC /* SectionTitlePageCollectionView.m in Sources */,
 				B1348D3B2046BEC20006FACC /* AppDelegate.m in Sources */,
 				B1348E182047A4D10006FACC /* SearchModule.m in Sources */,
 				B13493812047F3860006FACC /* RankBusiness.m in Sources */,
 				B13493C12047F79A0006FACC /* DQNavigationController.m in Sources */,
 				B13493872047F3860006FACC /* RankViewController.m in Sources */,
 				B13493892047F3860006FACC /* UserCenterPresent.m in Sources */,
+				B13493DD2048F6190006FACC /* UIDevice+NTYExtension.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1268,11 +1422,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B134940A204935DE0006FACC /* NSObject+Decroate.m in Sources */,
 				B134937E2047F3860006FACC /* RankModule.m in Sources */,
 				B13493A22047F3860006FACC /* ChannelBusiness.m in Sources */,
+				B13493E92048F75D0006FACC /* Path.m in Sources */,
 				B1348DF42047A46B0006FACC /* RecommendModule.m in Sources */,
 				B1348E152047A4D10006FACC /* SearchPresent.m in Sources */,
 				B13493A82047F3860006FACC /* ChannelViewController.m in Sources */,
+				B13493FF2049333B0006FACC /* SearchBarView.m in Sources */,
 				B13493B82047F3860006FACC /* TopicViewController.m in Sources */,
 				B13493922047F3860006FACC /* UserCenterBusiness.m in Sources */,
 				B1348DF02047A46B0006FACC /* RecommendPresent.m in Sources */,
@@ -1280,24 +1437,35 @@
 				B13493AE2047F3860006FACC /* TopicModule.m in Sources */,
 				B134938E2047F3860006FACC /* UserCenterModule.m in Sources */,
 				B1348DFE2047A46B0006FACC /* RecommendViewController.m in Sources */,
+				B1349412204956340006FACC /* SearchSuggestViewController.m in Sources */,
 				B13493BD2047F6AA0006FACC /* DQTabBarController.m in Sources */,
 				B13493C72047FA3B0006FACC /* DQViewController.m in Sources */,
 				B1348DF82047A46B0006FACC /* RecommendBusiness.m in Sources */,
 				B134937A2047F3860006FACC /* RankPresent.m in Sources */,
+				B13493EE2048F81D0006FACC /* Dispatch.m in Sources */,
+				B13493E42048F6760006FACC /* NSObject+Cast.m in Sources */,
+				B13493D72048F0770006FACC /* SASView.m in Sources */,
 				B134939A2047F3860006FACC /* ChannelPresent.m in Sources */,
 				B1348DA420479BA90006FACC /* ViewController.m in Sources */,
 				B13493982047F3860006FACC /* UserCenterViewController.m in Sources */,
 				B1348DA520479BA90006FACC /* main.m in Sources */,
 				B1348E1D2047A4D10006FACC /* SearchBusiness.m in Sources */,
+				B13493E02048F6190006FACC /* UIButton+NTYExtension.m in Sources */,
 				B1348E232047A4D10006FACC /* SearchViewController.m in Sources */,
+				B13493D02048ED100006FACC /* DQHorizontalSelectionListView.m in Sources */,
+				B13494062049339B0006FACC /* NTYKeyValueObserver.m in Sources */,
+				B13493F6204929C00006FACC /* SearchSuggestAlbumPageCell.m in Sources */,
+				B13493CB2048EC8F0006FACC /* RecommendPageViewController.m in Sources */,
 				B13493AA2047F3860006FACC /* TopicPresent.m in Sources */,
 				B134939E2047F3860006FACC /* ChannelModule.m in Sources */,
+				B13493F2204901510006FACC /* SectionTitlePageCollectionView.m in Sources */,
 				B1348DA620479BA90006FACC /* AppDelegate.m in Sources */,
 				B1348E192047A4D10006FACC /* SearchModule.m in Sources */,
 				B13493822047F3860006FACC /* RankBusiness.m in Sources */,
 				B13493C22047F79A0006FACC /* DQNavigationController.m in Sources */,
 				B13493882047F3860006FACC /* RankViewController.m in Sources */,
 				B134938A2047F3860006FACC /* UserCenterPresent.m in Sources */,
+				B13493DE2048F6190006FACC /* UIDevice+NTYExtension.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -9,5 +9,6 @@
 #import <Foundation/Foundation.h>
 
 @interface SearchBusiness : NSObject
+- (void)loadResultViewControllerWithKeyword:(NSString *)keyword;
 
 @end

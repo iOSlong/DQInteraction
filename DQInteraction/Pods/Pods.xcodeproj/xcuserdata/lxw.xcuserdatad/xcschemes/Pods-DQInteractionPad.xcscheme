@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '739208D330E3ED7C7F401BCD87E5C408'
+               BlueprintIdentifier = '25AD8D48C6BFABB66E0E0A0548856ABC'
                BlueprintName = 'Pods-DQInteractionPad'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'libPods-DQInteractionPad.a'>
